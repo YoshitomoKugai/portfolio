@@ -1,0 +1,41 @@
+.header{
+  height: 200px;
+}
+body {
+    background-color: #f0f8ff; /* 背景色はaliceblue */
+    background-image: url(../img/tbshx1.jpg);
+    background-size: cover;
+    height: 900px;
+  }
+.app-title {
+    color: #228b22; /* 見出しはforestgreen */
+    text-align: center;
+    height: 40%;
+    padding: 10px;
+    font-size: 50px;
+  }
+  p {
+    color: #ffffff; /* 段落はwhite */
+    background-color: #32cd32; /* 段落の背景色はlimegreen */
+    font-family: Arial;
+    padding: 10px;
+    text-align: center;
+  }
+.member-bottom{
+  position: absolute;
+  bottom: 0;
+}
+.member-bottom{
+  width: 100%;
+  height: 50px;
+  background-color: #32cd32; /* 段落の背景色はlimegreen */
+}
+.member-bottom-menu{
+  color: #ffffff; /* 段落はwhite */
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
